@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/plugin.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/css/intlTelInput.css">
+    <script src="https://unpkg.com/ityped@0.0.10"></script>
+    <title>1Click Website Solutions</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header py-2">
+        <div class="container">
+            <div class="header-main d-flex align-items-center justify-content-between py-3">
+                <a href="index.html" class="header-main__logo">
+                    <img src="assets/images/logo.png" alt="logo" class="imgFluid">
+                </a>
+                <ul class="header-main__nav flex-wrap d-flex align-items-center justify-content-center">
+                    <li><a href="index.html"
+                            >Home</a></li>
+                    <li>
+                        <a href="javascript:void(0);">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="website-design.html">Website Design</a></li>
+                            <li><a href="mobile-app.html">Mobile App</a></li>
+                            <li><a href="ecommerce-design.html">E-commerce Design</a></li>
+                            <li><a href="branding.html">Branding</a></li>
+                            <li><a href="video-animation.html">Video Animation</a></li>
+                            <li><a href="seo.html">Search Engine Optimization</a></li>
+                            <li><a href="content-writing.html">content writing</a></li>
+                            <li><a href="logo-design.html">logo design</a></li>
+                            <li><a href="animated-logo.html">animated logo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="packages.html">Packages</a>
+                    </li>
+                    <li><a href="combo-package.html">Combo Package</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="headerWrapper">
+        <div class="headerWrapper-main justify-content-between align-items-center">
+            <a href="index.html" class="header-main__logo">
+                <img src="assets/images/logo.png" alt="logo" class="imgFluid">
+            </a>
+            <div class="openBtn" onclick="openBtn()"><i class='bx bx-menu'></i></div>
+        </div>
+        <header class="header header--mobile" id="headerMobile">
+            <div class="closeBtn" onclick="closeBtn()"><i class='bx bx-x'></i></div>
+            <div class="header-main d-flex align-items-center justify-content-between py-3">
+                <a href="index.html" class="header-main__logo">
+                    <img src="assets/images/logo.png" alt="logo" class="imgFluid">
+                </a>
+                <ul class="header-main__nav flex-wrap d-flex align-items-center justify-content-center">
+                    <li><a href="index.html"
+                            >Home</a></li>
+                    <li>
+                        <a href="javascript:void(0);">Services</a>
+                        <ul class="dropdown">
+                            <li><a href="website-design.html">Website Design</a></li>
+                            <li><a href="mobile-app.html">Mobile App</a></li>
+                            <li><a href="ecommerce-design.html">E-commerce Design</a></li>
+                            <li><a href="branding.html">Branding</a></li>
+                            <li><a href="video-animation.html">Video Animation</a></li>
+                            <li><a href="seo.html">Search Engine Optimization</a></li>
+                            <li><a href="content-writing.html">content writing</a></li>
+                            <li><a href="logo-design.html">logo design</a></li>
+                            <li><a href="animated-logo.html">animated logo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="packages.html">Packages</a>
+                    </li>
+                    <li><a href="combo-package.html">Combo Package</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about-us.html">About us</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <!-- Pagetitle -->
+        <section class="banner pagetitle bg--properties">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-lg-8">
+                        <div class="banner__content text-center">
+                            <h1 class="text-uppercase textShadow--dark">contact <span class="color--primary">us.</span>
+                            </h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non provident omnis possimus
+                                laboriosam sit consequatur temporibus obcaecati eveniet cupiditate at quas vero quaerat
+                                esse, totam aut natus deleniti vitae aperiam.
+                            </p>
+                            <div class="btnWrapper flex-wrap d-flex align-items-center justify-content-center">
+                                <a href="#" class="themeBtn mr-3 bg--primary text-light">live chat</a>
+                                <a href="tel:8555344489" class="themeBtn bg--primary text-light mr-3">(855) 534-4489</a>
+                                <a href="#" class="themeBtn bg--primary text-light" data-toggle="modal"
+                                    data-target="#exampleModal">Get started</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Us -->
+        <section class="contact bg--properties padd-y position-relative about--bg contactInner">
+            <div class="contact__img">
+                <img src="assets/images/contact-img.png" alt="image" class="imgFluid w-100 h-100 objectFit--contain">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="section-content <?= $textLight ?>">
+                            <div class="heading font-light">LET’S TALK <span
+                                    class="color--primary font-bold">BUSINESS</span></div>
+                        </div>
+                        <div class="d-flex flex-wrap align-items-center contact__links">
+                            <a href="mailto:info@1clickwebsitesolutions.com"
+                                class="mr-3 text-capitalize <?= $textLight ?>">
+                                <img src="assets/images/msg-icon.png" alt="image" class="imgFluid">
+                                info@1clickwebsitesolutions.com
+                            </a>
+                            <a href="tel:8555344489" class="<?= $textLight ?>">
+                                <img src="assets/images/phone-icon.png" alt="image" class="imgFluid"> (855) 534-4489
+                            </a>
+                        </div>
+                        <form action="#" class="contactForm mt-3">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-lg-6">
+                                    <div class="inputField">
+                                        <input type="text" placeholder="Your Full Name*" name="Name">
+                                        <input type="hidden" name="form-name" value="Contact Us Form Query">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="inputField">
+                                        <input type="text" placeholder="Tell/Mobile No." name="Number"
+                                            id="phone-countr">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="inputField">
+                                        <input type="text" placeholder="Your Email Address*" name="Email">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="inputField">
+                                        <textarea rows="5" placeholder="Project Details" name="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="inputField">
+                                        <button type="submit"
+                                            class="themeBtn w-100 rounded bg--primary text-light">submit</button>
+                                        <input class="" type="hidden" name="ctry" value="" />
+                                        <input type="hidden" name="pc" value="">
+                                        <input type="hidden" name="cip" value="">
+                                        <input type="hidden" name="hiddencapcha" value="">
+                                        <input type="hidden" id="location" name="locationURL" value="" />
+                                        <script type="text/javascript">
+                                            document.getElementById('location').value = window.location.href;
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg--secondary py-3">
+        <div class="container">
+            <div class="footer__copyright pt-3 border-top text-light d-flex align-items-center justify-content-between">
+                <p class="mb-0">
+                    Copyrights © 2023 <a href="index.html" class="colorHover--primary">1 Click Website Solutions</a>. All
+                    Rights Reserved.
+                </p>
+                <div class="d-flex align-items-center">
+                    <a href="#" class="mr-4 colorHover--primary">Terms & Conditions</a>
+                    <a href="#" class="colorHover--primary">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="popup-form modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="row">
+                    <div class="col-12 col-lg-5"></div>
+                    <div class="col-12 col-lg-7">
+                        <div class="modal-header border-0 pb-0">
+                            <h1>LET’S TALK <span class="color--primary font-bold">BUSINESS</span></h1>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body pt-0">
+                            <form action="#" class="contactForm mt-3">
+                                <div class="row no-gutters">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="inputField">
+                                            <input type="text" placeholder="Your Full Name*">
+                                            <input type="hidden" name="form-name" value="Contact Us Form Query">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="inputField">
+                                            <input type="text" placeholder="Tell/Mobile No." name="Number"
+                                                id="phone-countr">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="inputField">
+                                            <input type="text" placeholder="Your Email Address*">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="inputField">
+                                            <textarea rows="5" placeholder="Project Details"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="inputField">
+                                            <button type="submit"
+                                                class="themeBtn w-100 rounded bg--primary text-light">submit</button>
+                                            <input class="" type="hidden" name="ctry" value="" />
+                                            <input type="hidden" name="pc" value="">
+                                            <input type="hidden" name="cip" value="">
+                                            <input type="hidden" name="hiddencapcha" value="">
+                                            <input type="hidden" id="location" name="locationURL" value="" />
+                                            <script type="text/javascript">
+                                                document.getElementById('location').value = window.location.href;
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/plugin.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/js/intlTelInput.min.js"></script>
+
+</body>
+
+</html>
