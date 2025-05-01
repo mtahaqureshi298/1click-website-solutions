@@ -393,6 +393,21 @@ html.lenis body {
   right: 0;
 }
 
+.banner__contentList {
+  width: max-content;
+  column-count: 2;
+  text-align: left;
+  margin: 0 auto 1.5rem;
+}
+
+.banner__contentList li i {
+  color: var(--color-primary);
+}
+
+.banner__contentList li+li {
+  margin-top: 0.25rem;
+}
+
 /* About Us */
 .about--bg {
   background: url(../images/about-bg.png);
@@ -412,11 +427,13 @@ html.lenis body {
   top: 50%;
   right: 15%;
   transform: translateY(-50%);
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 /* Our Services */
 .services--bg {
-  background: url(../images/services-bg.png);
+  background: url(../images/services-bg.jpg);
 }
 
 .services-card {
