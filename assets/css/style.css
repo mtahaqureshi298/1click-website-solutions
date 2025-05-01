@@ -19,11 +19,13 @@
 :root {
   --color-primary: #bf9900;
   --color-secondary: #222222;
+  --white: #fff;
+  --black: #000;
 }
 
 ::selection {
   background-color: var(--color-primary);
-  color: #fff;
+  color: var(--white);
 }
 
 /* width */
@@ -138,15 +140,15 @@ i[class^="bx"] {
 }
 
 .border--light {
-  border: 2px solid #fff !important;
+  border: 2px solid var(--white) !important;
 }
 
 .textShadow--dark {
-  text-shadow: 0 0 5px #000;
+  text-shadow: 0 0 5px var(--black);
 }
 
 .textShadow--light {
-  text-shadow: 0 0 5px #fff;
+  text-shadow: 0 0 5px var(--white);
 }
 
 .font-light {
@@ -269,7 +271,7 @@ html.lenis body {
 }
 
 .header-main__nav li a {
-  color: #fff;
+  color: var(--white);
   font-size: 1rem;
   font-weight: 500;
   padding: 0.35rem 0.25rem;
@@ -299,7 +301,7 @@ html.lenis body {
 .dropdown {
   width: max-content;
   height: 265px;
-  background: #fff;
+  background: var(--white);
   position: absolute;
   top: 100%;
   left: 0%;
@@ -319,13 +321,13 @@ html.lenis body {
   padding: 0.5rem 1rem;
   margin: 0;
   font-size: 0.9rem;
-  color: #000;
+  color: var(--black);
   transition: all 300ms ease-in-out;
 }
 
 .dropdown li a:hover {
   background: var(--color-secondary);
-  color: #fff;
+  color: var(--white);
 }
 
 /* Banner */
@@ -333,7 +335,7 @@ html.lenis body {
   width: 100%;
   min-height: 100vh;
   height: 100%;
-  color: #fff;
+  color: var(--white);
   background: url("../images/banner.jpg");
   display: flex;
   align-items: center;
@@ -400,12 +402,16 @@ html.lenis body {
   margin: 0 auto 1.5rem;
 }
 
-.banner__contentList li i {
-  color: var(--color-primary);
-}
-
 .banner__contentList li+li {
   margin-top: 0.25rem;
+}
+
+.banner__contentList li a {
+  color: var(--white);
+}
+
+.banner__contentList li a i {
+  color: var(--color-primary);
 }
 
 /* About Us */
@@ -415,7 +421,7 @@ html.lenis body {
 
 .about__content {
   width: 100%;
-  background: #fff;
+  background: var(--white);
   border-bottom-right-radius: 100px;
   padding: 6rem 8rem 6rem 14rem;
   box-shadow: 0 0 20px 5px #00000020;
@@ -437,7 +443,7 @@ html.lenis body {
 }
 
 .services-card {
-  border: 1px dotted #fff;
+  border: 1px dotted var(--white);
   border-radius: 1rem;
   padding: 2rem 2.25rem;
   cursor: pointer;
@@ -495,7 +501,7 @@ html.lenis body {
 
 .portfolio .nav-tabs .nav-item.show .nav-link,
 .portfolio .nav-tabs .nav-link.active {
-  color: #fff;
+  color: var(--white);
   background-color: var(--color-primary);
   border: none;
   font-weight: 700;
@@ -529,14 +535,14 @@ html.lenis body {
 }
 
 .packages-cardWrapper {
-  border: 1px dashed #fff;
+  border: 1px dashed var(--white);
   border-radius: 1.25rem;
   padding: 0.5rem;
   margin: 0.5rem;
 }
 
 .packages-card {
-  background: #fff;
+  background: var(--white);
   padding: 1.25rem 1rem 0.5rem;
   border-radius: 1rem;
   position: relative;
@@ -622,7 +628,7 @@ html.lenis body {
 }
 
 .packages-card:hover {
-  color: #fff;
+  color: var(--white);
 }
 
 /* Contact Us */
@@ -706,7 +712,7 @@ html.lenis body {
 
 .popup-form .close {
   font-size: 2rem;
-  color: #fff;
+  color: var(--white);
   opacity: 1;
 }
 
@@ -724,11 +730,11 @@ html.lenis body {
   background: var(--color-primary);
   border: 1px solid #00000020;
   box-shadow: 0 0 15px 5px #00000020;
-  color: #fff;
+  color: var(--white);
 }
 
 .testimonialSlider .slick-slide.slick-current.slick-active.slick-center .testimonials-card .star {
-  color: #fff;
+  color: var(--white);
 }
 
 .testimonialSlider .slick-dots {
