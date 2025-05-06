@@ -20,20 +20,16 @@
                 <a href="index.html" class="header-main__logo">
                     <img src="assets/images/logo.png" alt="logo" class="imgFluid">
                 </a>
-                <ul class="header-main__nav flex-wrap d-flex align-items-center justify-content-center">
-                    <li><a href="index.html" >Home</a></li>
+                <ul class="header-main__nav flex-wrap d-flex align-items-center mx-auto">
+                    <li><a href="index.html">Home</a></li>
                     <li>
-                        <a href="javascript:void(0);" >Services</a>
+                        <a href="javascript:void(0);">Services</a>
                         <ul class="dropdown">
-                            <li><a href="website-design.html">Website Design</a></li>
-                            <li><a href="mobile-app.html">Mobile App</a></li>
-                            <li><a href="ecommerce-design.html">E-commerce Design</a></li>
-                            <li><a href="branding.html">Branding</a></li>
-                            <li><a href="video-animation.html">Video Animation</a></li>
-                            <li><a href="seo.html">Search Engine Optimization</a></li>
-                            <li><a href="content-writing.html">content writing</a></li>
-                            <li><a href="logo-design.html">logo design</a></li>
-                            <li><a href="animated-logo.html">animated logo</a></li>
+                            <li><a href="design.html">Design & Development</a></li>
+                            <li><a href="book.html">Book</a></li>
+                            <li><a href="trademark.html">Trademark</a></li>
+                            <li><a href="company-llc.html">Company LLC</a></li>
+                            <li><a href="amazon.html">Amazon</a></li>
                         </ul>
                     </li>
                     <li><a href="packages.html" class="<?= (basename($_SERVER['PHP_SELF']) == 'packages.php') ? 'active' : '' ?>">Packages</a></li>
@@ -58,20 +54,16 @@
                 <a href="index.html" class="header-main__logo">
                     <img src="assets/images/logo.png" alt="logo" class="imgFluid">
                 </a>
-                <ul class="header-main__nav flex-wrap d-flex align-items-center justify-content-center">
-                    <li><a href="index.html" >Home</a></li>
+                <ul class="header-main__nav flex-wrap d-flex align-items-center mx-auto">
+                    <li><a href="index.html">Home</a></li>
                     <li>
-                        <a href="javascript:void(0);" >Services</a>
+                        <a href="javascript:void(0);">Services</a>
                         <ul class="dropdown">
-                            <li><a href="website-design.html">Website Design</a></li>
-                            <li><a href="mobile-app.html">Mobile App</a></li>
-                            <li><a href="ecommerce-design.html">E-commerce Design</a></li>
-                            <li><a href="branding.html">Branding</a></li>
-                            <li><a href="video-animation.html">Video Animation</a></li>
-                            <li><a href="seo.html">Search Engine Optimization</a></li>
-                            <li><a href="content-writing.html">content writing</a></li>
-                            <li><a href="logo-design.html">logo design</a></li>
-                            <li><a href="animated-logo.html">animated logo</a></li>
+                            <li><a href="design.html">Design & Development</a></li>
+                            <li><a href="book.html">Book</a></li>
+                            <li><a href="trademark.html">Trademark</a></li>
+                            <li><a href="company-llc.html">Company LLC</a></li>
+                            <li><a href="amazon.html">Amazon</a></li>
                         </ul>
                     </li>
                     <li><a href="packages.html" class="<?= (basename($_SERVER['PHP_SELF']) == 'packages.php') ? 'active' : '' ?>">Packages</a></li>

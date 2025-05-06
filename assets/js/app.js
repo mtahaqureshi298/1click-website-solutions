@@ -1,9 +1,11 @@
 $(function () {
-  sliderInit()
-  lenisSetup()
-  replaceHash()
-  typingText()
-  mobileHeader()
+  sliderInit();
+  lenisSetup();
+  replaceHash();
+  if ($(".runingText").length > 0) {
+    typingText();
+  }
+  mobileHeader();
   Fancybox.bind();
 })
 
@@ -35,36 +37,36 @@ function sliderInit() {
 }
 
 function lenisSetup() {
-	const lenis = new Lenis({
-		duration: 1.5,
-		easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-		smooth: true,
-		mouseMultiplier: 1,
-	});
+  const lenis = new Lenis({
+    duration: 1.5,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    smooth: true,
+    mouseMultiplier: 1,
+  });
 
-	function raf(time) {
-		lenis.raf(time);
-		requestAnimationFrame(raf);
-	}
-	requestAnimationFrame(raf);
-	document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-		anchor.addEventListener("click", function (e) {
-			e.preventDefault();
-			lenis.scrollTo(this.getAttribute("href"));
-		});
-	});
-	lenis.scrollTo("top");
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+  requestAnimationFrame(raf);
+  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      lenis.scrollTo(this.getAttribute("href"));
+    });
+  });
+  lenis.scrollTo("top");
 }
 
 function replaceHash() {
-	document.querySelectorAll("a").forEach((a) => {
-		let href = a.getAttribute("href");
-		a.href = href ?
-			href.startsWith("#") && href.endsWith("#") ?
-			href.replace("#", "javascript:void(0)") :
-			href :
-			"javascript:void(0)";
-	});
+  document.querySelectorAll("a").forEach((a) => {
+    let href = a.getAttribute("href");
+    a.href = href ?
+      href.startsWith("#") && href.endsWith("#") ?
+      href.replace("#", "javascript:void(0)") :
+      href :
+      "javascript:void(0)";
+  });
 }
 
 // Typing Text

@@ -300,13 +300,12 @@ html.lenis body {
 /*Dropdown*/
 .dropdown {
   width: max-content;
-  height: 265px;
   background: var(--white);
   position: absolute;
   top: 100%;
   left: 0%;
   padding: 0;
-  border-radius: 0.75rem 0 0 0.75rem;
+  border-radius: 0.5rem;
   overflow: hidden;
   opacity: 0;
   visibility: hidden;
@@ -443,12 +442,17 @@ html.lenis body {
 }
 
 .services-card {
+  height: 340px;
   border: 1px dotted var(--white);
   border-radius: 1rem;
   padding: 2rem 2.25rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
   margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .services-card__img {
