@@ -13,7 +13,7 @@
                     </p>
                     <div class="btnWrapper flex-wrap justify-content-center d-flex align-items-center">
                         <a href="#" class="themeBtn mr-3 bg--secondary text-light">live chat</a>
-                        <a href="tel:8555344489" class="themeBtn mr-3 bg--secondary text-light">(855) 534-4489</a>
+                        <a href="tel:+1 (469) 231-5312" class="themeBtn mr-3 bg--secondary text-light">+1 (469) 231-5312</a>
                         <a href="#" class="themeBtn bg--secondary text-light" data-toggle="modal" data-target="#exampleModal">Get started</a>
                     </div>
                 </div>

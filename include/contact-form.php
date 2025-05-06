@@ -11,11 +11,11 @@
                     </h2>
                 </div>
                 <div class="d-flex flex-wrap align-items-center contact__links">
-                    <a href="mailto:info@1clickwebsitesolutions.com" class="mr-3 text-capitalize <?= $textLight ?>">
-                        <img src="assets/images/msg-icon.png" alt="image" class="imgFluid"> info@1clickwebsitesolutions.com
+                    <a href="mailto:info@quantumsoft360.com" class="mr-3 text-capitalize <?= $textLight ?>">
+                        <img src="assets/images/msg-icon.png" alt="image" class="imgFluid"> info@quantumsoft360.com
                     </a>
-                    <a href="tel:8555344489" class="<?= $textLight ?>">
-                        <img src="assets/images/phone-icon.png" alt="image" class="imgFluid"> (855) 534-4489
+                    <a href="tel:+1 (469) 231-5312" class="<?= $textLight ?>">
+                        <img src="assets/images/phone-icon.png" alt="image" class="imgFluid"> +1 (469) 231-5312
                     </a>
                 </div>
                 <form action="#" class="contactForm mt-3">
