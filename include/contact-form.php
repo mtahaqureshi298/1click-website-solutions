@@ -6,7 +6,9 @@
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="section-content <?= $textLight ?>">
-                    <div class="heading font-light">LET’S TALK <span class="color--primary font-bold">BUSINESS</span></div>
+                    <h2 class="heading font-light">
+                        LET’S TALK <span class="color--primary font-bold">BUSINESS</span>
+                    </h2>
                 </div>
                 <div class="d-flex flex-wrap align-items-center contact__links">
                     <a href="mailto:info@1clickwebsitesolutions.com" class="mr-3 text-capitalize <?= $textLight ?>">

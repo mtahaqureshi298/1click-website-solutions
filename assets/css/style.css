@@ -53,6 +53,11 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  overflow-x: clip;
 }
 
 a {
@@ -190,6 +195,10 @@ i[class^="bx"] {
 
 .themeBtn:hover {
   transform: translateY(-10px);
+}
+
+.btnWrapper {
+  gap: 1rem 0;
 }
 
 /* Section Heading */
@@ -372,7 +381,7 @@ html.lenis body {
 .banner__content>h1 {
   font-size: 3.75rem;
   font-weight: 300;
-  line-height: 0.9;
+  line-height: 1;
   margin-bottom: 1rem;
 }
 
@@ -385,13 +394,6 @@ html.lenis body {
   font-weight: 300;
   line-height: 1.55;
   margin-bottom: 1.5rem;
-}
-
-.banner__img {
-  width: 50%;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 .banner__contentList {
@@ -472,6 +474,7 @@ html.lenis body {
   font-size: 0.9rem;
   line-height: 1.75;
   font-weight: 400;
+  margin: 0;
 }
 
 .services-card:hover {
@@ -674,9 +677,10 @@ html.lenis body {
 
 /* Testimonials */
 .testimonials-card {
+  height: 250px;
   border: 1px solid #00000090;
   border-radius: 1rem;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 2rem;
 }
 
 .testimonials-card__details {
@@ -699,7 +703,6 @@ html.lenis body {
 
 .testimonials-card p {
   font-size: 0.9rem;
-  text-align: center;
   margin-bottom: 0;
   line-height: 1.65;
 }

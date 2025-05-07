@@ -72,7 +72,7 @@ function replaceHash() {
 // Typing Text
 function typingText() {
   window.ityped.init(document.querySelector(".runingText"), {
-    strings: ["digital needs."],
+    strings: ["Digital Services.", "Legal Solutions.", "Book Publishing", "Amazon Growth", "Brand Protection", "Website Design & Development"],
     loop: true,
     typeSpeed: 200,
     backSpeed: 200,
@@ -85,14 +85,20 @@ function typingText() {
 function mobileHeader() {
   const popup = document.getElementById("headerMobile");
   const body = document.body;
+  const openButton = document.getElementById("openMenu"); // ID of the hamburger menu button
+  const closeButton = document.getElementById("closeMenu"); // ID of the close button
 
   function openBtn() {
-    document.getElementById("headerMobile").classList.add("active");
+    popup.classList.add("active");
     body.classList.add("no-scroll");
   }
 
   function closeBtn() {
-    document.getElementById("headerMobile").classList.remove("active");
+    popup.classList.remove("active");
     body.classList.remove("no-scroll");
   }
+
+  // Attach event listeners to buttons
+  openButton.addEventListener("click", openBtn);
+  closeButton.addEventListener("click", closeBtn);
 }

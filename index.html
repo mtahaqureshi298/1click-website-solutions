@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <script src="https://unpkg.com/ityped@0.0.10"></script>
@@ -27,7 +28,7 @@
                     <li>
                         <a href="javascript:void(0);">Services</a>
                         <ul class="dropdown">
-                            <li><a href="design.html">Design & Development</a></li>
+                            <li><a href="design-&-development.html">Design & Development</a></li>
                             <li><a href="book.html">Book</a></li>
                             <li><a href="trademark.html">Trademark</a></li>
                             <li><a href="company-llc.html">Company LLC</a></li>
@@ -46,10 +47,10 @@
             <a href="index.html" class="header-main__logo">
                 <img src="assets/images/logo.png" alt="logo" class="imgFluid">
             </a>
-            <div class="openBtn" onclick="openBtn()"><i class='bx bx-menu'></i></div>
+            <div class="openBtn" id="openMenu"><i class='bx bx-menu'></i></div>
         </div>
         <header class="header header--mobile" id="headerMobile">
-            <div class="closeBtn" onclick="closeBtn()"><i class='bx bx-x'></i></div>
+            <div class="closeBtn" id="closeMenu"><i class='bx bx-x'></i></div>
             <div class="header-main d-flex align-items-center justify-content-between py-3">
                 <a href="index.html" class="header-main__logo">
                     <img src="assets/images/logo.png" alt="logo" class="imgFluid">
@@ -59,7 +60,7 @@
                     <li>
                         <a href="javascript:void(0);">Services</a>
                         <ul class="dropdown">
-                            <li><a href="design.html">Design & Development</a></li>
+                            <li><a href="design-&-development.html">Design & Development</a></li>
                             <li><a href="book.html">Book</a></li>
                             <li><a href="trademark.html">Trademark</a></li>
                             <li><a href="company-llc.html">Company LLC</a></li>
@@ -81,14 +82,14 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-9 col-md-9">
                         <div class="banner__content text-center">
-                            <h1 class="text-uppercase textShadow--dark">your <span
-                                    class="color--primary d-block">one-stop solution</span> for all your
-                                <div><span class="color--primary runingText"></span></div>
+                            <h1 class="text-uppercase textShadow--dark">
+                                Welcome to <span class="color--primary d-block">1Click Website Solutions</span>
+                                Your One-Stop Partner for <div><span class="color--primary runingText"></span></div>
                             </h1>
                             <p>
-                                From captivating website design to seamless e-commerce solutions, mobile app
-                                development, and stunning logo design, we deliver comprehensive digital services
-                                tailored to your success. Your journey to digital excellence starts here!
+                                At 1Click Website Solutions, we simplify success. Whether you're an entrepreneur,
+                                author, or business owner, we offer everything you need — from stunning websites and
+                                legal protection to book publishing and e-commerce growth — all in one place.
                             </p>
                             <ul class="banner__contentList">
                                 <li>
@@ -150,17 +151,26 @@
                 <div class="col-12 col-lg-7 col-md-8">
                     <div class="about__content section-content">
                         <h2 class="heading text-uppercase font-light">
-                            Masters Of <span class="d-block color--primary font-bold">Digital And Design.</span>
+                            Who We <span class="color--primary font-bold">Are</span>
                         </h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's ever since the 1500s, when an unknown printer took a galley
+                            At 1Click Website Solutions, we are a team of passionate creators, developers, and
+                            strategists committed to helping businesses, authors, and entrepreneurs bring their ideas to
+                            life. With a focus on innovation, reliability, and simplicity, we provide all-in-one
+                            services — from website design and legal registrations to publishing and e-commerce growth —
+                            under one trusted roof. Our goal is simple: make digital success accessible, affordable, and
+                            efficient for everyone.
                         </p>
+                        <h2 class="heading text-uppercase font-light">
+                            Our Mission & <span class="color--primary font-bold">Values</span>
+                        </h2>
                         <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's ever since the 1500s, when an unknown printer took a galley of type and
-                            scrambled it to make a type book Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's ever since the 1500s.
+                            Our mission is to empower individuals and brands with seamless solutions that save time,
+                            reduce complexity, and drive real results. We believe in clarity, creativity, and
+                            customer-first thinking. Whether you're starting your first company, publishing your first
+                            book, or scaling your online presence — we are here to guide, support, and build with you,
+                            every step of the way. With 1Click, you don’t just get a service — you get a partner in
+                            growth.
                         </p>
                         <div class="btnWrapper flex-wrap d-flex align-items-center">
                             <a href="#" class="themeBtn mr-3 bg--primary text-light">live chat</a>
@@ -180,24 +190,23 @@
         <section class="services services--bg bg--properties padd-y">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-10">
+                    <div class="col-12 col-lg-8">
                         <div class="section-content text-light text-center">
                             <h2 class="heading text-uppercase font-light">
-                                services we offer
+                                services We Offer at
                                 <span class="d-block color--primary textShadow--dark font-bold">
-                                    grow, inspire, dominate & lead.
+                                    1Click Website Solutions
                                 </span>
                             </h2>
                             <p class="text-light">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has been the industry's ever since the 1500s, when an unknown printer took a galley of
-                                type and scrambled it to make a type book.
+                                At 1Click Website Solutions, we offer a complete suite of services to help you create,
+                                protect, and grow your brand — all in one place.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-5 no-gutters">
-                    <div class="col-12 col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="services-card bgHover--primary text-center" data-toggle="modal"
                             data-target="#exampleModal">
                             <div class="services-card__img mx-auto">
@@ -207,13 +216,13 @@
                             <div class="services-card__content text-light">
                                 <h4 class="title text-capitalize">Company Registration</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum Ipsum
-                                    is simply dummy.
+                                    Start your business with ease—LLC formation, legal documentation, and compliance
+                                    support all in one place.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="services-card bgHover--primary text-center" data-toggle="modal"
                             data-target="#exampleModal">
                             <div class="services-card__img mx-auto">
@@ -223,13 +232,13 @@
                             <div class="services-card__content text-light">
                                 <h4 class="title text-capitalize">Book Printing</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum Ipsum
-                                    is simply dummy.
+                                    High-quality book printing services for professional results, whether you need a
+                                    small batch or a large run.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="services-card bgHover--primary text-center" data-toggle="modal"
                             data-target="#exampleModal">
                             <div class="services-card__img mx-auto">
@@ -237,15 +246,15 @@
                                     class="imgFluid w-100 h-100 objectFit--cover">
                             </div>
                             <div class="services-card__content text-light">
-                                <h4 class="title text-capitalize">web app development</h4>
+                                <h4 class="title text-capitalize">web & app development</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum Ipsum
-                                    is simply dummy.
+                                    Custom websites and mobile apps designed to be user-friendly, responsive, and
+                                    tailored to your business needs.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="services-card bgHover--primary text-center" data-toggle="modal"
                             data-target="#exampleModal">
                             <div class="services-card__img mx-auto">
@@ -255,13 +264,13 @@
                             <div class="services-card__content text-light">
                                 <h4 class="title text-capitalize">Logo Registration</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum Ipsum
-                                    is simply dummy.
+                                    Protect your brand with logo registration services. Secure exclusive rights and
+                                    enhance your brand recognition.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="services-card bgHover--primary text-center" data-toggle="modal"
                             data-target="#exampleModal">
                             <div class="services-card__img mx-auto">
@@ -271,13 +280,13 @@
                             <div class="services-card__content text-light">
                                 <h4 class="title text-capitalize">Generate Barcode</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum Ipsum
-                                    is simply dummy.
+                                    Easily generate barcodes for your products, ideal for inventory management, retail,
+                                    and logistics.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="services-card bgHover--primary text-center" data-toggle="modal"
                             data-target="#exampleModal">
                             <div class="services-card__img mx-auto">
@@ -287,13 +296,13 @@
                             <div class="services-card__content text-light">
                                 <h4 class="title text-capitalize">Book Writing</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum Ipsum
-                                    is simply dummy.
+                                    Create compelling books with our professional ghostwriting services, helping you
+                                    craft your story with expertise.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="services-card bgHover--primary text-center" data-toggle="modal"
                             data-target="#exampleModal">
                             <div class="services-card__img mx-auto">
@@ -303,13 +312,13 @@
                             <div class="services-card__content text-light">
                                 <h4 class="title text-capitalize">Book Formating</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum Ipsum
-                                    is simply dummy.
+                                    Get your book formatted professionally for both print and digital publishing with
+                                    our expert services.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="services-card bgHover--primary text-center" data-toggle="modal"
                             data-target="#exampleModal">
                             <div class="services-card__img mx-auto">
@@ -319,13 +328,13 @@
                             <div class="services-card__content text-light">
                                 <h4 class="title text-capitalize">Custom CMS</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum Ipsum
-                                    is simply dummy.
+                                    Manage your content effortlessly with our custom CMS solutions, designed to be
+                                    user-friendly and scalable.
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="services-card bgHover--primary text-center" data-toggle="modal"
                             data-target="#exampleModal">
                             <div class="services-card__img mx-auto">
@@ -335,8 +344,8 @@
                             <div class="services-card__content text-light">
                                 <h4 class="title text-capitalize">Copyright</h4>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum Ipsum
-                                    is simply dummy.
+                                    Protect your intellectual property with our copyright services, ensuring your
+                                    creations are legally safeguarded.
                                 </p>
                             </div>
                         </div>
@@ -352,18 +361,23 @@
                     <div class="col-12 col-lg-8">
                         <div class="section-content text-center text-light">
                             <h2 class="heading text-uppercase textShadow--dark font-light">
-                                Call to <span class="font-bold color--primary">Action</span>
+                                Ready to <span class="font-bold color--primary">Get Started?</span>
                             </h2>
                             <p class="text-light">
-                                The best custom website development at your disposal – WebXpertLLC
-                                guarantees web solutions for your diverse range of complex business problems.
+                                Take the first step towards success with 1Click Website Solutions. Contact us today for
+                                expert support on your journey!
                             </p>
                             <div class="btnWrapper flex-wrap justify-content-center d-flex align-items-center">
-                                <a href="#" class="themeBtn mr-3 bg--secondary text-light">live chat</a>
-                                <a href="tel:8555344489" class="themeBtn mr-3 bg--secondary text-light">(855)
-                                    534-4489</a>
+                                <a href="#" class="themeBtn mr-3 bg--secondary text-light">
+                                    live chat
+                                </a>
+                                <a href="tel:8555344489" class="themeBtn mr-3 bg--secondary text-light">
+                                    (855) 534-4489
+                                </a>
                                 <a href="#" class="themeBtn bg--secondary text-light" data-toggle="modal"
-                                    data-target="#exampleModal">Get started</a>
+                                    data-target="#exampleModal">
+                                    Get started
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -377,12 +391,12 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-8">
                         <div class="section-content text-center">
-
-                            <h2 class="heading font-light text-uppercase">our <span
-                                    class="font-bold color--primary">PORTFOLIO</span></h2>
+                            <h2 class="heading font-light text-uppercase">
+                                Our Work, <span class="font-bold color--primary">Our Passion</span>
+                            </h2>
                             <p>
-                                For over a decade, we have been crafting stunning website and logo designs with artistic
-                                precision. And When it comes to elevating brands, we do it with sheer dedication.
+                                Explore some of our recent projects to see how we bring ideas to life. From stunning
+                                websites to successful brand launches, our portfolio speaks for itself.
                             </p>
                         </div>
                     </div>
@@ -393,8 +407,16 @@
                             role="tab" aria-controls="nav-home" aria-selected="true">Web Design</a>
                         <a class="nav-item nav-link" id="nav-bookcovers-tab" data-toggle="tab" href="#nav-bookcovers"
                             role="tab" aria-controls="nav-bookcovers" aria-selected="false">Book Covers</a>
+                        <!-- <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                            role="tab" aria-controls="nav-profile" aria-selected="false">E-Commerce</a> -->
+                        <!-- <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+                            role="tab" aria-controls="nav-contact" aria-selected="false">Shopify</a> -->
                         <a class="nav-item nav-link" id="nav-app-tab" data-toggle="tab" href="#nav-app" role="tab"
                             aria-controls="nav-app" aria-selected="false">Mobile App</a>
+                        <!-- <a class="nav-item nav-link" id="nav-web-tab" data-toggle="tab" href="#nav-web" role="tab"
+                            aria-controls="nav-web" aria-selected="false">Web Application</a> -->
+                        <!-- <a class="nav-item nav-link" id="nav-branding-tab" data-toggle="tab" href="#nav-branding"
+                            role="tab" aria-controls="nav-branding" aria-selected="false">Branding</a> -->
                         <a class="nav-item nav-link" id="nav-trademark-tab" data-toggle="tab" href="#nav-trademark"
                             role="tab" aria-controls="nav-trademark" aria-selected="false">Trademark</a>
                     </div>
@@ -402,84 +424,84 @@
                 <div class="tab-content mt-5" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="row">
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/1.png" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/1.png" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/2.png" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/2.png" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/3.png" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/3.png" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/4.png" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/4.png" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/5.png" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/5.png" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/6.png" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/6.png" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/7.png" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/7.png" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/8.png" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/8.png" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/9.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/9.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/10.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/10.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/11.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/11.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/website/12.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/website/12.jpg" alt="image"
@@ -490,84 +512,84 @@
                     </div>
                     <div class="tab-pane fade" id="nav-bookcovers" role="tabpanel" aria-labelledby="nav-bookcovers-tab">
                         <div class="row">
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/1.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/1.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/2.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/2.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/3.png" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/3.png" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/4.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/4.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/5.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/5.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/6.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/6.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/7.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/7.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/8.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/8.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/9.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/9.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/10.png" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/10.png" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/11.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/11.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/bookcovers/12.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/bookcovers/12.jpg" alt="image"
@@ -576,86 +598,206 @@
                             </div>
                         </div>
                     </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="row">
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img5.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img5.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img6.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img6.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img7.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img7.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img8.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img8.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img1.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img1.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img2.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img2.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img3.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img3.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img4.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img4.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                        <div class="row">
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img1.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img1.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img2.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img2.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img3.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img3.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img4.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img4.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img5.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img5.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img6.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img6.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img7.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img7.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img8.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img8.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="tab-pane fade" id="nav-app" role="tabpanel" aria-labelledby="nav-app-tab">
                         <div class="row">
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/1.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/1.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/2.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/2.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/3.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/3.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/4.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/4.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/5.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/5.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/6.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/6.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/7.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/7.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/8.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/8.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/9.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/9.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/10.jpg" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/10.jpg" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/11.webp" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/11.webp" alt="image"
                                         class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
+                            <div class="col-12 col-lg-3 col-sm-6">
                                 <a href="assets/images/mobile-apps/12.webp" class="portfolio__img position-relative"
                                     data-fancybox="">
                                     <img src="assets/images/mobile-apps/12.webp" alt="image"
@@ -664,26 +806,154 @@
                             </div>
                         </div>
                     </div>
+                    <div class="tab-pane fade" id="nav-web" role="tabpanel" aria-labelledby="nav-web-tab">
+                        <div class="row">
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img1.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img1.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img2.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img2.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img3.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img3.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img4.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img4.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img5.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img5.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img6.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img6.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img7.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img7.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img8.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img8.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-branding" role="tabpanel" aria-labelledby="nav-branding-tab">
+                        <div class="row">
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img5.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img5.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img6.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img6.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img7.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img7.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img8.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img8.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img1.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img1.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img2.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img2.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img3.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img3.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/portfolio-img4.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/portfolio-img4.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div class="tab-pane fade" id="nav-trademark" role="tabpanel" aria-labelledby="nav-trademark-tab">
                         <div class="row">
-                            <div class="col-12 col-lg-3 col-md-6">
-                                <a href="assets/images/trademark/1.jpg" class="portfolio__img position-relative" data-fancybox="">
-                                    <img src="assets/images/trademark/1.jpg" alt="image" class="imgFluid w-100 h-100 objectFit--cover">
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/trademark/1.jpg" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/trademark/1.jpg" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
-                                <a href="assets/images/trademark/2.png" class="portfolio__img position-relative" data-fancybox="">
-                                    <img src="assets/images/trademark/2.png" alt="image" class="imgFluid w-100 h-100 objectFit--cover">
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/trademark/2.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/trademark/2.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
-                                <a href="assets/images/trademark/3.png" class="portfolio__img position-relative" data-fancybox="">
-                                    <img src="assets/images/trademark/3.png" alt="image" class="imgFluid w-100 h-100 objectFit--cover">
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/trademark/3.png" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/trademark/3.png" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
-                            <div class="col-12 col-lg-3 col-md-6">
-                                <a href="assets/images/trademark/4.jpg" class="portfolio__img position-relative" data-fancybox="">
-                                    <img src="assets/images/trademark/4.jpg" alt="image" class="imgFluid w-100 h-100 objectFit--cover">
+                            <div class="col-12 col-lg-3 col-sm-6">
+                                <a href="assets/images/trademark/4.jpg" class="portfolio__img position-relative"
+                                    data-fancybox="">
+                                    <img src="assets/images/trademark/4.jpg" alt="image"
+                                        class="imgFluid w-100 h-100 objectFit--cover">
                                 </a>
                             </div>
                         </div>
@@ -698,8 +968,9 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-8">
                         <div class="section-content text-center text-light">
-                            <h2 class="heading font-light text-uppercase">our <span
-                                    class="font-bold color--primary">packages</span></h2>
+                            <h2 class="heading font-light text-uppercase">
+                                our <span class="font-bold color--primary">packages</span>
+                            </h2>
                             <p class="text-light">
                                 For over a decade, we have been crafting stunning website and logo designs with artistic
                                 precision. And When it comes to elevating brands, we do it with sheer dedication.
@@ -716,8 +987,9 @@
                                 <div
                                     class="d-flex justify-content-between align-items-start position-relative text-light mb-2">
                                     <div class="packages-card__header">
-                                        <div class="title text-uppercase font-bold">Basic <span
-                                                class="d-block">Package</span></div>
+                                        <h4 class="title text-uppercase font-bold">
+                                            Basic <span class="d-block">Package</span>
+                                        </h4>
                                     </div>
                                     <div class="packages-card__badge bg--secondary text-light text-uppercase">$299</div>
                                 </div>
@@ -754,8 +1026,9 @@
                                 <div
                                     class="d-flex align-items-end justify-content-between position-relative text-light mb-2">
                                     <div class="packages-card__header">
-                                        <div class="title text-uppercase font-bold">Startup <span
-                                                class="d-block">Package</span></div>
+                                        <h4 class="title text-uppercase font-bold">
+                                            Startup <span class="d-block">Package</span>
+                                        </h4>
                                     </div>
                                     <div
                                         class="packages-card__badge bg--secondary position-relative text-light text-uppercase">
@@ -790,8 +1063,9 @@
                                 <div
                                     class="d-flex justify-content-between align-items-start position-relative text-light mb-2">
                                     <div class="packages-card__header">
-                                        <div class="title text-uppercase font-bold">Professional <span
-                                                class="d-block">Package</span></div>
+                                        <h4 class="title text-uppercase font-bold">
+                                            Professional <span class="d-block">Package</span>
+                                        </h4>
                                     </div>
                                     <div class="packages-card__badge bg--secondary text-light text-uppercase">$699</div>
                                 </div>
@@ -824,8 +1098,9 @@
                                 <div
                                     class="d-flex justify-content-between align-items-start position-relative text-light mb-2">
                                     <div class="packages-card__header">
-                                        <div class="title text-uppercase font-bold">Elite <span
-                                                class="d-block">Package</span></div>
+                                        <h4 class="title text-uppercase font-bold">
+                                            Elite <span class="d-block">Package</span>
+                                        </h4>
                                     </div>
                                     <div class="packages-card__badge bg--secondary text-light text-uppercase">$899</div>
                                 </div>
@@ -858,8 +1133,9 @@
                                 <div
                                     class="d-flex justify-content-between align-items-start position-relative text-light mb-2">
                                     <div class="packages-card__header">
-                                        <div class="title text-uppercase font-bold">Corporate <span
-                                                class="d-block">Package</span></div>
+                                        <h4 class="title text-uppercase font-bold">
+                                            Corporate <span class="d-block">Package</span>
+                                        </h4>
                                     </div>
                                     <div class="packages-card__badge bg--secondary text-light text-uppercase">$1099
                                     </div>
@@ -893,8 +1169,9 @@
                                 <div
                                     class="d-flex justify-content-between align-items-start position-relative text-light mb-2">
                                     <div class="packages-card__header">
-                                        <div class="title text-uppercase font-bold">Business <span
-                                                class="d-block">Package</span></div>
+                                        <h4 class="title text-uppercase font-bold">
+                                            Business <span class="d-block">Package</span>
+                                        </h4>
                                     </div>
                                     <div class="packages-card__badge bg--secondary text-light text-uppercase">$1399
                                     </div>
@@ -928,14 +1205,14 @@
         <section class="cta position-relative cta--bg padd-y bg--properties">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-12 col-lg-8">
+                    <div class="col-12 col-lg-7">
                         <div class="section-content text-center text-light">
                             <h2 class="heading text-uppercase textShadow--dark font-light">
-                                Call to <span class="font-bold color--primary">Action</span>
+                                Let's Make Your <span class="font-bold color--primary">Project a Success</span>
                             </h2>
                             <p class="text-light">
-                                The best custom website development at your disposal – WebXpertLLC
-                                guarantees web solutions for your diverse range of complex business problems.
+                                Inspired by our work? Let’s collaborate and turn your ideas into reality. Contact us
+                                today to discuss your project and take the first step towards growth.
                             </p>
                             <div class="btnWrapper flex-wrap justify-content-center d-flex align-items-center">
                                 <a href="#" class="themeBtn mr-3 bg--secondary text-light">live chat</a>
@@ -955,8 +1232,9 @@
             <div class="container">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="section-content">
-                        <div class="heading text-uppercase font-light">what <span
-                                class="font-bold color--primary">people say</span></div>
+                        <h2 class="heading text-uppercase font-light">
+                            What Our <span class="font-bold color--primary">Clients Say</span>
+                        </h2>
                     </div>
                     <div class="btnWrapper flex-wrap d-flex align-items-center">
                         <a href="#" class="themeBtn mr-3 bg--primary text-light">live chat</a>
@@ -970,9 +1248,9 @@
                         <div class="swiper-slide">
                             <div class="testimonials-card">
                                 <div class="testimonials-card__details d-flex align-items-center">
-                                    <img src="assets/images/testimonials-img1.png" alt="image" class="imgFluid mr-2">
+                                    <!-- <img src="assets/images/testimonials-img1.png" alt="image" class="imgFluid mr-2"> -->
                                     <div>
-                                        <div class="title font-bold text-uppercase">Rapid Link</div>
+                                        <h4 class="title font-bold text-uppercase">Sarah K.</h4>
                                         <div class="star">
                                             <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
                                                 class='bx bxs-star'></i>
@@ -981,21 +1259,17 @@
                                     </div>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec
-                                    turpis
-                                    orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam
-                                    lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu.
-                                    Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in
-                                    turpis.
+                                    The team at 1Click Website Solutions made my business launch easy and stress-free.
+                                    Their expertise and dedication were key to my success!
                                 </p>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="testimonials-card">
                                 <div class="testimonials-card__details d-flex align-items-center">
-                                    <img src="assets/images/testimonials-img1.png" alt="image" class="imgFluid mr-2">
+                                    <!-- <img src="assets/images/testimonials-img1.png" alt="image" class="imgFluid mr-2"> -->
                                     <div>
-                                        <div class="title font-bold text-uppercase">Rapid Link</div>
+                                        <h4 class="title font-bold text-uppercase">John M.</h4>
                                         <div class="star">
                                             <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
                                                 class='bx bxs-star'></i>
@@ -1004,21 +1278,17 @@
                                     </div>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec
-                                    turpis
-                                    orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam
-                                    lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu.
-                                    Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in
-                                    turpis.
+                                    1Click Website Solutions brought my book to life! Their creative team handled
+                                    everything from writing to publishing — and I couldn’t be happier with the results!
                                 </p>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="testimonials-card">
                                 <div class="testimonials-card__details d-flex align-items-center">
-                                    <img src="assets/images/testimonials-img1.png" alt="image" class="imgFluid mr-2">
+                                    <!-- <img src="assets/images/testimonials-img1.png" alt="image" class="imgFluid mr-2"> -->
                                     <div>
-                                        <div class="title font-bold text-uppercase">Rapid Link</div>
+                                        <h4 class="title font-bold text-uppercase">Emily L.</h4>
                                         <div class="star">
                                             <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
                                                 class='bx bxs-star'></i>
@@ -1027,21 +1297,17 @@
                                     </div>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec
-                                    turpis
-                                    orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam
-                                    lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu.
-                                    Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in
-                                    turpis.
+                                    My website design exceeded all expectations. The attention to detail and quality
+                                    service from 1Click made a huge impact on my business!
                                 </p>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="testimonials-card">
                                 <div class="testimonials-card__details d-flex align-items-center">
-                                    <img src="assets/images/testimonials-img1.png" alt="image" class="imgFluid mr-2">
+                                    <!-- <img src="assets/images/testimonials-img1.png" alt="image" class="imgFluid mr-2"> -->
                                     <div>
-                                        <div class="title font-bold text-uppercase">Rapid Link</div>
+                                        <h4 class="title font-bold text-uppercase">Daniel P.</h4>
                                         <div class="star">
                                             <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
                                                 class='bx bxs-star'></i>
@@ -1050,12 +1316,27 @@
                                     </div>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec
-                                    turpis
-                                    orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam
-                                    lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu.
-                                    Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in
-                                    turpis.
+                                    From trademarks to book formatting, the team at 1Click Website Solutions handled
+                                    everything professionally and efficiently. I saved time and effort.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials-card">
+                                <div class="testimonials-card__details d-flex align-items-center">
+                                    <!-- <img src="assets/images/testimonials-img1.png" alt="image" class="imgFluid mr-2"> -->
+                                    <div>
+                                        <h4 class="title font-bold text-uppercase">Amina R.</h4>
+                                        <div class="star">
+                                            <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                                                class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i><i class='bx bx-star'></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>
+                                    1Click’s Amazon service helped optimize my listings and increase sales by 30%. I’m
+                                    incredibly satisfied with their work!
                                 </p>
                             </div>
                         </div>
@@ -1073,8 +1354,9 @@
                 <div class="row">
                     <div class="col-12 col-lg-6">
                         <div class="section-content text-light">
-                            <div class="heading font-light">LET’S TALK <span
-                                    class="color--primary font-bold">BUSINESS</span></div>
+                            <h2 class="heading font-light">
+                                Get in <span class="color--primary font-bold">Touch</span>
+                            </h2>
                         </div>
                         <div class="d-flex flex-wrap align-items-center contact__links">
                             <a href="mailto:info@1clickwebsitesolutions.com" class="mr-3 text-capitalize text-light">
@@ -1135,7 +1417,7 @@
         <div class="container">
             <div class="footer__copyright pt-3 border-top text-light d-flex align-items-center justify-content-between">
                 <p class="mb-0">
-                    Copyrights © 2023 <a href="index.html" class="colorHover--primary">1 Click Website Solutions</a>.
+                    Copyrights © 2025 <a href="index.html" class="colorHover--primary">1 Click Website Solutions</a>.
                     All
                     Rights Reserved.
                 </p>
