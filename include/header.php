@@ -46,10 +46,10 @@
             <a href="index.html" class="header-main__logo">
                 <img src="assets/images/logo.png" alt="logo" class="imgFluid">
             </a>
-            <div class="openBtn" onclick="openBtn()"><i class='bx bx-menu'></i></div>
+            <div class="openBtn" id="openMenu"><i class='bx bx-menu'></i></div>
         </div>
         <header class="header header--mobile" id="headerMobile">
-            <div class="closeBtn" onclick="closeBtn()"><i class='bx bx-x'></i></div>
+            <div class="closeBtn" id="closeMenu"><i class='bx bx-x'></i></div>
             <div class="header-main d-flex align-items-center justify-content-between py-3">
                 <a href="index.html" class="header-main__logo">
                     <img src="assets/images/logo.png" alt="logo" class="imgFluid">
