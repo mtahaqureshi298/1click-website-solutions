@@ -2,7 +2,7 @@
     <div class="container">
         <div class="footer__copyright pt-3 border-top text-light d-flex align-items-center justify-content-between">
             <p class="mb-0">
-                Copyrights © 2025 <a href="index.html" class="colorHover--primary">1 Click Website Solutions</a>. All Rights Reserved.
+                Copyrights © 2025 <a href="index.html" class="colorHover--primary">Quantum Soft 360</a>. All Rights Reserved.
             </p>
             <div class="d-flex align-items-center">
                 <a href="#" class="mr-4 colorHover--primary">Terms & Conditions</a>

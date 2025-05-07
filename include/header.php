@@ -9,7 +9,7 @@
 <link href="assets/css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/css/intlTelInput.css">
 <script src="https://unpkg.com/ityped@0.0.10"></script>
-    <title>1Click Website Solutions</title>
+    <title>Quantum Soft 360</title>
 </head>
 
 <body>

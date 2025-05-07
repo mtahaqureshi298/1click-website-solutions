@@ -773,3 +773,23 @@ html.lenis body {
 .no-scroll {
   overflow: hidden;
 }
+
+.contact__links {
+  gap: 1rem;
+}
+
+.contact__link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact__linkIcon {
+  width: 40px;
+  aspect-ratio: 1;
+  background: var(--color-primary);
+  color: var(--white);
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+}
