@@ -18,7 +18,7 @@
         <div class="container">
             <div class="header-main d-flex align-items-center justify-content-between py-3">
                 <a href="index.html" class="header-main__logo">
-                    <img src="assets/images/logo.png" alt="logo" class="imgFluid">
+                    <img src="assets/images/logo.gif" alt="logo" class="imgFluid">
                 </a>
                 <ul class="header-main__nav flex-wrap d-flex align-items-center mx-auto">
                     <li><a href="index.html">Home</a></li>
@@ -44,7 +44,7 @@
     <div class="headerWrapper">
         <div class="headerWrapper-main justify-content-between align-items-center">
             <a href="index.html" class="header-main__logo">
-                <img src="assets/images/logo.png" alt="logo" class="imgFluid">
+                <img src="assets/images/logo.gif" alt="logo" class="imgFluid">
             </a>
             <div class="openBtn" id="openMenu"><i class='bx bx-menu'></i></div>
         </div>
@@ -52,7 +52,7 @@
             <div class="closeBtn" id="closeMenu"><i class='bx bx-x'></i></div>
             <div class="header-main d-flex align-items-center justify-content-between py-3">
                 <a href="index.html" class="header-main__logo">
-                    <img src="assets/images/logo.png" alt="logo" class="imgFluid">
+                    <img src="assets/images/logo.gif" alt="logo" class="imgFluid">
                 </a>
                 <ul class="header-main__nav flex-wrap d-flex align-items-center mx-auto">
                     <li><a href="index.html">Home</a></li>
