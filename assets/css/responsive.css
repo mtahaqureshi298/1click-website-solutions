@@ -14,6 +14,10 @@
     html {
         font-size: 15px;
     }
+
+    .banner {
+        height: 800px;
+    }
 }
 
 @media only screen and (max-width: 1366px) {
@@ -29,6 +33,14 @@
 @media (max-width: 1199.98px) {
     html {
         font-size: 13px;
+    }
+
+    .banner {
+        height: 700px;
+    }
+
+    .pagetitle {
+        height: 450px !important;
     }
 
     .about__content {
@@ -190,6 +202,13 @@
 
     .testimonials-card {
         height: 200px;
+    }
+
+    .contact__img {
+        width: 25%;
+        height: auto;
+        top: auto;
+        bottom: 0;
     }
 }
 

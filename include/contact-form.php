@@ -1,6 +1,6 @@
 <section class="contact bg--properties padd-y position-relative <?= $bgContact ?>">
     <div class="contact__img">
-        <img src="assets/images/contact-img.png" alt="image" class="imgFluid w-100 h-100 objectFit--contain">
+        <img src="assets/images/contact-img.webp" alt="image" class="imgFluid w-100 h-100 objectFit--contain">
     </div>
     <div class="container">
         <div class="row">
